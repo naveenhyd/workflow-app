@@ -1,0 +1,72 @@
+.search-input {
+	border-radius: 20px;
+	padding-left: 35px;
+}
+.search-icon {
+	position: absolute;
+	top: 11px;
+	left: 30px;
+}
+
+.search-bar .fa-plus {
+	position: absolute;
+	top: 11px;
+	left: 45px;
+	color: white;
+}
+.search-bar .create-workflow {
+	padding-left: 50px;
+}
+
+.worklist {
+	padding: 0px 20px;
+}
+.workflow-list-item {
+	padding: 30px;
+	margin-top: 20px;
+	border: 1px solid #818181;
+	margin: 20px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #d3d2d2;
+	cursor: pointer;
+
+	&:hover {
+		.delete-icon {
+			display: block;
+		}
+	}
+	.delete-icon {
+		float: right;
+		padding: 10px;
+		border-radius: 50%;
+		background-color: red;
+		color: white;
+		margin-top: -40px;
+		margin-right: -40px;
+		display: none;
+	}
+	.workflow-state {
+		margin-top: 25px;
+		font-size: 13px;
+		// border: 1px solid red;
+		padding: 20px 0px;
+		margin-top: -8px;
+		.complete {
+			background-color: #09b609b9;
+		}
+		.pending {
+			background-color: #d3d2d2;
+		}
+		.fa {
+			font-size: 18px;
+			padding: 8px;
+			border-radius: 50%;
+			color: white;
+			vertical-align: middle;
+		}
+	}
+	.workflow-name {
+		margin: 10px 0px;
+		border: 1px solid black;
+	}
+}
