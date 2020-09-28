@@ -1,0 +1,38 @@
+{
+	"workflow": [
+		{
+			"workflowId": 1,
+			"name": "workflow1",
+			"state": "pending",
+			"tasks": [
+				{
+					"taskId": 1,
+					"taskname": "task1",
+					"taskstate": "pending"
+				},
+				{
+					"taskId": 2,
+					"taskname": "task2",
+					"taskstate": "complete"
+				}
+			]
+		},
+		{
+			"workflowId": 2,
+			"name": "workflow2",
+			"state": "complete",
+			"tasks": [
+				{
+					"taskId": 1,
+					"taskname": "task1",
+					"taskstate": "complete"
+				},
+				{
+					"taskId": 2,
+					"taskname": "task2",
+					"taskstate": "complete"
+				}
+			]
+		}
+	]
+}
